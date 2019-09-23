@@ -74,6 +74,7 @@
 -(void) alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     NSLog(@"index = %d\n",buttonIndex);
+    NSLog(@"GitHub测试");
 }
 
 -(void) alertView:(UIAlertView *)alertView willDismissWithButtonIndex:(NSInteger)buttonIndex
